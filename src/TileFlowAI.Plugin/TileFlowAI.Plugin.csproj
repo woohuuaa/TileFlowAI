@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>TileFlowAI.Plugin</RootNamespace>
+    <AssemblyName>TileFlowAI.Plugin</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TileFlowAI.Core\TileFlowAI.Core.csproj" />
+    <ProjectReference Include="..\TileFlowAI.Reporting\TileFlowAI.Reporting.csproj" />
+  </ItemGroup>
+
+  <!-- AutoCAD managed references will be added after the target AutoCAD version is locked. -->
+</Project>

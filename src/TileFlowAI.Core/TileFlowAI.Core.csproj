@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TileFlowAI.Core</RootNamespace>
+    <AssemblyName>TileFlowAI.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TileFlowAI.Geometry\TileFlowAI.Geometry.csproj" />
+  </ItemGroup>
+</Project>

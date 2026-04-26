@@ -1,0 +1,27 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# Test output
+TestResults/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AutoCAD temp and backup files
+*.bak
+*.sv$
+*.dwl
+*.dwl2

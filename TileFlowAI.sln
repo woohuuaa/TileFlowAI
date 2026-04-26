@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileFlowAI.Plugin", "src\TileFlowAI.Plugin\TileFlowAI.Plugin.csproj", "{8B6E6DB1-8B24-4D9A-A6EE-FA4B4D0A0E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileFlowAI.Core", "src\TileFlowAI.Core\TileFlowAI.Core.csproj", "{5A16F0B3-A4A0-4B62-85F8-58289AAA0001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileFlowAI.Geometry", "src\TileFlowAI.Geometry\TileFlowAI.Geometry.csproj", "{5A16F0B3-A4A0-4B62-85F8-58289AAA0002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileFlowAI.Reporting", "src\TileFlowAI.Reporting\TileFlowAI.Reporting.csproj", "{5A16F0B3-A4A0-4B62-85F8-58289AAA0003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileFlowAI.Core.Tests", "tests\TileFlowAI.Core.Tests\TileFlowAI.Core.Tests.csproj", "{5A16F0B3-A4A0-4B62-85F8-58289AAA0004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileFlowAI.Geometry.Tests", "tests\TileFlowAI.Geometry.Tests\TileFlowAI.Geometry.Tests.csproj", "{5A16F0B3-A4A0-4B62-85F8-58289AAA0005}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {8B6E6DB1-8B24-4D9A-A6EE-FA4B4D0A0E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {8B6E6DB1-8B24-4D9A-A6EE-FA4B4D0A0E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {8B6E6DB1-8B24-4D9A-A6EE-FA4B4D0A0E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {8B6E6DB1-8B24-4D9A-A6EE-FA4B4D0A0E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0001}.Release|Any CPU.Build.0 = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0002}.Release|Any CPU.Build.0 = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0003}.Release|Any CPU.Build.0 = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0004}.Release|Any CPU.Build.0 = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {5A16F0B3-A4A0-4B62-85F8-58289AAA0005}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(SolutionProperties) = preSolution
+    HideSolutionNode = FALSE
+  EndGlobalSection
+EndGlobal
